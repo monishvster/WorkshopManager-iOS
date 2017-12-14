@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		272E993F1EE606F800809597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272E993E1EE606F800809597 /* Main.storyboard */; };
+		272E99411EEAF41F00809597 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272E99401EEAF41F00809597 /* MoreViewController.swift */; };
+		272E99431EEB278900809597 /* WorkshopDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272E99421EEB278900809597 /* WorkshopDetails.swift */; };
+		272E99451EEEED9200809597 /* MeetingDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272E99441EEEED9200809597 /* MeetingDetails.swift */; };
+		272E99471EEEFC5600809597 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272E99461EEEFC5600809597 /* SwiftyJSON.framework */; };
+		272E994C1EF1BA3800809597 /* LeaderboardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272E994B1EF1BA3600809597 /* LeaderboardTableViewController.swift */; };
+		272E994E1EF1BA6400809597 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272E994D1EF1BA6400809597 /* ProfileViewController.swift */; };
+		272E99501EF1BA7800809597 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272E994F1EF1BA7800809597 /* ContactViewController.swift */; };
+		272E99521EF1BA8B00809597 /* RequestWorkshopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272E99511EF1BA8B00809597 /* RequestWorkshopViewController.swift */; };
+		4FD8C926257146EC3D9E95F7 /* Pods_LTC_Workshop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B80A6E8F1E9D075CCB76CB2 /* Pods_LTC_Workshop.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		5CD4D9141F1D3C0300290BE5 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CD4D9131F1D3C0300290BE5 /* Launch Screen.storyboard */; };
+		EA19EDF91DDFA776004986CF /* UpcomingDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19EDF81DDFA776004986CF /* UpcomingDetailsViewController.swift */; };
+		EA19EDFB1DDFA7B6004986CF /* UpcomingMeetingDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19EDFA1DDFA7B6004986CF /* UpcomingMeetingDetailsViewController.swift */; };
+		EA42B5431DCA7F0600A504E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA42B5421DCA7F0600A504E7 /* AppDelegate.swift */; };
+		EA42B5451DCA7F0600A504E7 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA42B5441DCA7F0600A504E7 /* ScheduleViewController.swift */; };
+		EA42B5471DCA7F0600A504E7 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA42B5461DCA7F0600A504E7 /* UpcomingViewController.swift */; };
+		EA42B54C1DCA7F0600A504E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA42B54B1DCA7F0600A504E7 /* Assets.xcassets */; };
+		EA42B5751DD1300300A504E7 /* WorkshopTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA42B5741DD1300300A504E7 /* WorkshopTabViewController.swift */; };
+		EA42B5771DD130C000A504E7 /* AttendedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA42B5761DD130C000A504E7 /* AttendedViewController.swift */; };
+		EA42B5791DD131C800A504E7 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA42B5781DD131C800A504E7 /* FeedbackViewController.swift */; };
+		EA42B57B1DD136D700A504E7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA42B57A1DD136D700A504E7 /* LoginViewController.swift */; };
+		EAA22E851DDBC3D30024F56C /* ScheduleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA22E841DDBC3D20024F56C /* ScheduleDetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C66A2202270349DC707B542 /* Pods_LTC_WorkshopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTC_WorkshopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		272E993E1EE606F800809597 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		272E99401EEAF41F00809597 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		272E99421EEB278900809597 /* WorkshopDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkshopDetails.swift; sourceTree = "<group>"; };
+		272E99441EEEED9200809597 /* MeetingDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingDetails.swift; sourceTree = "<group>"; };
+		272E99461EEEFC5600809597 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../../Library/Developer/Xcode/DerivedData/LTC_Workshop-aaglxpvzevthwigigzwxjbojvsje/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		272E994B1EF1BA3600809597 /* LeaderboardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardTableViewController.swift; sourceTree = "<group>"; };
+		272E994D1EF1BA6400809597 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		272E994F1EF1BA7800809597 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		272E99511EF1BA8B00809597 /* RequestWorkshopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestWorkshopViewController.swift; sourceTree = "<group>"; };
+		39222D55D14BA9AF6E5C1325 /* Pods_LTC_WorkshopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTC_WorkshopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD4D9131F1D3C0300290BE5 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		6B80A6E8F1E9D075CCB76CB2 /* Pods_LTC_Workshop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTC_Workshop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A325529B602F36B913ACF1F /* Pods-LTC_Workshop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTC_Workshop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LTC_Workshop/Pods-LTC_Workshop.debug.xcconfig"; sourceTree = "<group>"; };
+		EA19EDF81DDFA776004986CF /* UpcomingDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingDetailsViewController.swift; sourceTree = "<group>"; };
+		EA19EDFA1DDFA7B6004986CF /* UpcomingMeetingDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingMeetingDetailsViewController.swift; sourceTree = "<group>"; };
+		EA42B53F1DCA7F0600A504E7 /* LTC_Workshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTC_Workshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA42B5421DCA7F0600A504E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA42B5441DCA7F0600A504E7 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		EA42B5461DCA7F0600A504E7 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		EA42B54B1DCA7F0600A504E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA42B5501DCA7F0600A504E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA42B5741DD1300300A504E7 /* WorkshopTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkshopTabViewController.swift; sourceTree = "<group>"; };
+		EA42B5761DD130C000A504E7 /* AttendedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendedViewController.swift; sourceTree = "<group>"; };
+		EA42B5781DD131C800A504E7 /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		EA42B57A1DD136D700A504E7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EAA22E841DDBC3D20024F56C /* ScheduleDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleDetailsViewController.swift; sourceTree = "<group>"; };
+		FA25FB02416A6A30864A0454 /* Pods-LTC_Workshop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTC_Workshop.release.xcconfig"; path = "Pods/Target Support Files/Pods-LTC_Workshop/Pods-LTC_Workshop.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA42B53C1DCA7F0500A504E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272E99471EEEFC5600809597 /* SwiftyJSON.framework in Frameworks */,
+				4FD8C926257146EC3D9E95F7 /* Pods_LTC_Workshop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		272E993A1EE5F5AE00809597 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				272E99421EEB278900809597 /* WorkshopDetails.swift */,
+				272E99441EEEED9200809597 /* MeetingDetails.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		272E993D1EE5F5EE00809597 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA42B5441DCA7F0600A504E7 /* ScheduleViewController.swift */,
+				EAA22E841DDBC3D20024F56C /* ScheduleDetailsViewController.swift */,
+				EA42B5461DCA7F0600A504E7 /* UpcomingViewController.swift */,
+				EA42B5761DD130C000A504E7 /* AttendedViewController.swift */,
+				EA42B5781DD131C800A504E7 /* FeedbackViewController.swift */,
+				EA42B5741DD1300300A504E7 /* WorkshopTabViewController.swift */,
+				EA19EDFA1DDFA7B6004986CF /* UpcomingMeetingDetailsViewController.swift */,
+				EA19EDF81DDFA776004986CF /* UpcomingDetailsViewController.swift */,
+				EA42B57A1DD136D700A504E7 /* LoginViewController.swift */,
+				272E99401EEAF41F00809597 /* MoreViewController.swift */,
+				272E994B1EF1BA3600809597 /* LeaderboardTableViewController.swift */,
+				272E994D1EF1BA6400809597 /* ProfileViewController.swift */,
+				272E994F1EF1BA7800809597 /* ContactViewController.swift */,
+				272E99511EF1BA8B00809597 /* RequestWorkshopViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5B4A50DC16AA10FDB823962C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				272E99461EEEFC5600809597 /* SwiftyJSON.framework */,
+				6B80A6E8F1E9D075CCB76CB2 /* Pods_LTC_Workshop.framework */,
+				1C66A2202270349DC707B542 /* Pods_LTC_WorkshopTests.framework */,
+				39222D55D14BA9AF6E5C1325 /* Pods_LTC_WorkshopUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8893919EE2A1F1AB170DADD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A325529B602F36B913ACF1F /* Pods-LTC_Workshop.debug.xcconfig */,
+				FA25FB02416A6A30864A0454 /* Pods-LTC_Workshop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA42B5361DCA7F0500A504E7 = {
+			isa = PBXGroup;
+			children = (
+				EA42B5411DCA7F0600A504E7 /* LTC_Workshop */,
+				EA42B5401DCA7F0600A504E7 /* Products */,
+				8893919EE2A1F1AB170DADD8 /* Pods */,
+				5B4A50DC16AA10FDB823962C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA42B5401DCA7F0600A504E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA42B53F1DCA7F0600A504E7 /* LTC_Workshop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA42B5411DCA7F0600A504E7 /* LTC_Workshop */ = {
+			isa = PBXGroup;
+			children = (
+				272E993D1EE5F5EE00809597 /* Controllers */,
+				272E993A1EE5F5AE00809597 /* Model */,
+				EA42B5421DCA7F0600A504E7 /* AppDelegate.swift */,
+				272E993E1EE606F800809597 /* Main.storyboard */,
+				EA42B54B1DCA7F0600A504E7 /* Assets.xcassets */,
+				5CD4D9131F1D3C0300290BE5 /* Launch Screen.storyboard */,
+				EA42B5501DCA7F0600A504E7 /* Info.plist */,
+			);
+			path = LTC_Workshop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA42B53E1DCA7F0500A504E7 /* LTC_Workshop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA42B5691DCA7F0600A504E7 /* Build configuration list for PBXNativeTarget "LTC_Workshop" */;
+			buildPhases = (
+				697DF530107206CD76FCFE93 /* [CP] Check Pods Manifest.lock */,
+				EA42B53B1DCA7F0500A504E7 /* Sources */,
+				EA42B53C1DCA7F0500A504E7 /* Frameworks */,
+				EA42B53D1DCA7F0500A504E7 /* Resources */,
+				8F8CB07A386F29C02BAE53A3 /* [CP] Embed Pods Frameworks */,
+				737E6332A4FD6AD106895073 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTC_Workshop;
+			productName = LTC_Workshop;
+			productReference = EA42B53F1DCA7F0600A504E7 /* LTC_Workshop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA42B5371DCA7F0500A504E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Monish V";
+				TargetAttributes = {
+					EA42B53E1DCA7F0500A504E7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AHPBCQML3R;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EA42B53A1DCA7F0500A504E7 /* Build configuration list for PBXProject "LTC_Workshop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA42B5361DCA7F0500A504E7;
+			productRefGroup = EA42B5401DCA7F0600A504E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA42B53E1DCA7F0500A504E7 /* LTC_Workshop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA42B53D1DCA7F0500A504E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD4D9141F1D3C0300290BE5 /* Launch Screen.storyboard in Resources */,
+				272E993F1EE606F800809597 /* Main.storyboard in Resources */,
+				EA42B54C1DCA7F0600A504E7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		697DF530107206CD76FCFE93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LTC_Workshop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		737E6332A4FD6AD106895073 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LTC_Workshop/Pods-LTC_Workshop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F8CB07A386F29C02BAE53A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LTC_Workshop/Pods-LTC_Workshop-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LTC_Workshop/Pods-LTC_Workshop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA42B53B1DCA7F0500A504E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272E99521EF1BA8B00809597 /* RequestWorkshopViewController.swift in Sources */,
+				272E99451EEEED9200809597 /* MeetingDetails.swift in Sources */,
+				272E994E1EF1BA6400809597 /* ProfileViewController.swift in Sources */,
+				EA42B57B1DD136D700A504E7 /* LoginViewController.swift in Sources */,
+				EA19EDF91DDFA776004986CF /* UpcomingDetailsViewController.swift in Sources */,
+				EAA22E851DDBC3D30024F56C /* ScheduleDetailsViewController.swift in Sources */,
+				EA19EDFB1DDFA7B6004986CF /* UpcomingMeetingDetailsViewController.swift in Sources */,
+				272E99411EEAF41F00809597 /* MoreViewController.swift in Sources */,
+				272E99501EF1BA7800809597 /* ContactViewController.swift in Sources */,
+				EA42B5471DCA7F0600A504E7 /* UpcomingViewController.swift in Sources */,
+				EA42B5751DD1300300A504E7 /* WorkshopTabViewController.swift in Sources */,
+				EA42B5771DD130C000A504E7 /* AttendedViewController.swift in Sources */,
+				272E99431EEB278900809597 /* WorkshopDetails.swift in Sources */,
+				EA42B5791DD131C800A504E7 /* FeedbackViewController.swift in Sources */,
+				272E994C1EF1BA3800809597 /* LeaderboardTableViewController.swift in Sources */,
+				EA42B5431DCA7F0600A504E7 /* AppDelegate.swift in Sources */,
+				EA42B5451DCA7F0600A504E7 /* ScheduleViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA42B5671DCA7F0600A504E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA42B5681DCA7F0600A504E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA42B56A1DCA7F0600A504E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A325529B602F36B913ACF1F /* Pods-LTC_Workshop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = AHPBCQML3R;
+				INFOPLIST_FILE = LTC_Workshop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.workshop.LTC-Workshop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		EA42B56B1DCA7F0600A504E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA25FB02416A6A30864A0454 /* Pods-LTC_Workshop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = AHPBCQML3R;
+				INFOPLIST_FILE = LTC_Workshop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.workshop.LTC-Workshop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA42B53A1DCA7F0500A504E7 /* Build configuration list for PBXProject "LTC_Workshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA42B5671DCA7F0600A504E7 /* Debug */,
+				EA42B5681DCA7F0600A504E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA42B5691DCA7F0600A504E7 /* Build configuration list for PBXNativeTarget "LTC_Workshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA42B56A1DCA7F0600A504E7 /* Debug */,
+				EA42B56B1DCA7F0600A504E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA42B5371DCA7F0500A504E7 /* Project object */;
+}

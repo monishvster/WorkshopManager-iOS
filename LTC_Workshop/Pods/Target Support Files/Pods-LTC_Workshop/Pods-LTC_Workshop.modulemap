@@ -1,0 +1,6 @@
+framework module Pods_LTC_Workshop {
+  umbrella header "Pods-LTC_Workshop-umbrella.h"
+
+  export *
+  module * { export * }
+}
